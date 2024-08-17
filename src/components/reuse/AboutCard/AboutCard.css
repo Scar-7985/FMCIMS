@@ -1,0 +1,17 @@
+#Btn {
+    background-color: #FE5D37;
+    color: #fff;
+}
+
+#Btn:hover {
+    background-color: rgba(255, 68, 0, 0.8);
+}
+
+#img {
+    border: 14px solid #FFF5F3;
+    transition: all 0.6s;
+}
+
+#img:hover {
+    border: 14px solid orangered;
+}

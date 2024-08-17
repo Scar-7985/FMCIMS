@@ -1,0 +1,36 @@
+#topNav {
+    background-color: #416441;
+}
+
+#marquee {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#marquee span {
+    background-color: red;
+}
+
+
+#midNav {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.Banner1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.Banner2 {
+    font-size: 18px;
+    color: yellow;
+}
+
+#drpdown .NavLink {
+    color: black;
+}
+
+#drpdown .NavLink:hover {
+    color: orangered;
+}

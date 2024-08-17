@@ -1,0 +1,65 @@
+h3 {
+    color: #fff;
+}
+
+p{
+    color: #889BA0;
+}
+
+.link {
+    text-decoration: none;
+    color: #889BA0;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    color: orangered;
+    letter-spacing: .5px;
+}
+
+#quickLink .right-arrow {
+    color: #889ba0;
+    transition: all 0.3s;
+}
+
+#quickLink .right-arrow:hover {
+    color: orangered;
+}
+
+.Image {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#link1,
+#link2,
+#link3 {
+    text-decoration: none;
+    color: #fff;
+}
+
+#link2 {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+#link1:hover,
+#link2:hover,
+#link3:hover {
+    color: red;
+}
+
+#input,
+#input::placeholder {
+    color: #889BA0;
+}
+
+.form-control:focus {
+    transition: all 0.3s;
+    border-color: #fff;
+    box-shadow: 0 0 10px orangered;
+  }

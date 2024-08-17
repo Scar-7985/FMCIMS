@@ -1,0 +1,10 @@
+#parent {
+    background-image: url(../../components/Assets/Img/About/Bread.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.anchor {
+    color: red;
+    text-decoration: none;
+}
