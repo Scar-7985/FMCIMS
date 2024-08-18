@@ -14,8 +14,8 @@ import Contact from './Pages/Contact/Contact'
 import Error from './Pages/Error/Error'
 import StuLogin from './Pages/Student/StudentLogin'
 import InstLogin from './Pages/Institute/InstituteLogin'
+import InstPanel from './Pages/Institute/InstitutePanel'
 // import StuPanel from './Pages/Student/StudentPanel'
-// import InstPanel from './Pages/Institute/InstitutePanel'
 
 function App() {
 
@@ -41,8 +41,9 @@ function App() {
 
           {/* ===== ADMIN -  PANEL ===== */}
 
+           <Route path='/institute_panel' element={<InstPanel />} />
+           
           {/* <Route path='/student_panel' element={<StuPanel />} /> */}
-          {/* <Route path='/institute_panel' element={<InstPanel />} /> */}
 
           <Route path='*' element={<Error />} />
         </Routes>
